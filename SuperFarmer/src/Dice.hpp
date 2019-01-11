@@ -1,4 +1,5 @@
-#pragma once
+#ifndef SUPERFARMER_DICE_HPP
+#define SUPERFARMER_DICE_HPP
 
 #include "Animal.hpp"
 #include <vector>
@@ -11,3 +12,4 @@ struct Dice{
     std::pair<const Animal, const Animal> rollDice();
 };
 
+#endif // SUPERFARMER_DICE_HPP

@@ -1,5 +1,5 @@
 add_library(
-    superFarmer
+    superFarmer SHARED
     Animal.hpp
     Bank.hpp
     Bank.cpp

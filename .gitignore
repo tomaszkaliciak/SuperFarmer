@@ -1,0 +1,10 @@
+CMakeCache.txt
+cmake_install.cmake
+superFarmer
+CMakeFiles
+Makefile
+tajne
+build
+.vscode
+.ccls-cache
+compile_commands.json

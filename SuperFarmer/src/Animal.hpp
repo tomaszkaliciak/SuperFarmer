@@ -1,6 +1,7 @@
 #pragma once
 
-enum class Animal {
+enum class Animal 
+{
     rabbit = 1,
     sheep,
     pig,

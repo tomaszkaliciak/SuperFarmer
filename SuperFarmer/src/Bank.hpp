@@ -1,4 +1,5 @@
-#pragma once
+#ifndef SUPERFARMER_BANK_HPP
+#define SUPERFARMER_BANK_HPP
 
 #include <map>
 #include <vector>
@@ -26,3 +27,5 @@ struct Bank
     bool isTransferPossible(Animal animal, int howManyAnimals);
     int getRabbitEquivalent(Request& toGet);
 };
+
+#endif //SUPERFARMER_BANK_HPP

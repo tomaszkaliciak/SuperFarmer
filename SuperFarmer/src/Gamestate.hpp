@@ -1,4 +1,6 @@
-#pragma once 
+#ifndef SUPERFARMER_GAMESTATE_HPP
+#define SUPERFARMER_GAMESTATE_HPP
+
 #include "Player.hpp"
 #include "Dice.hpp"
 #include <map>
@@ -21,3 +23,5 @@ struct Gamestate
     int _turn;
     Dice _dice;
 };
+
+#endif // SUPERFARMER_GAMESTATE_HPP

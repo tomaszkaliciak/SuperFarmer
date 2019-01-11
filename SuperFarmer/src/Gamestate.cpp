@@ -12,7 +12,7 @@ Gamestate::Gamestate(int noPlayers) :
 
 bool Gamestate::isGameOver()
 {
-    return  requestForEnd() or hasSomebodyWon();
+    return requestForEnd() or hasSomebodyWon();
 }
 
 bool Gamestate::requestForEnd()
